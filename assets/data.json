@@ -9,7 +9,7 @@
       "lastUpdated": "2020-03-10T23:08:57.892Z",
       "votes": {
         "positive": 23,
-        "negative": 36
+        "negative": 37
       }
     },
     {
@@ -33,7 +33,7 @@
       "lastUpdated": "2020-12-10T23:41:07.120Z",
       "votes": {
         "positive": 45,
-        "negative": 97
+        "negative": 98
       }
     },
     {
@@ -45,7 +45,7 @@
       "lastUpdated": "2020-12-10T23:41:07.120Z",
       "votes": {
         "positive": 19,
-        "negative": 4
+        "negative": 6
       }
     },
     {
@@ -56,7 +56,7 @@
       "picture": "elon.png",
       "lastUpdated": "2020-12-20T23:43:38.041Z",
       "votes": {
-        "positive": 1237,
+        "positive": 1238,
         "negative": 894
       }
     },
@@ -68,7 +68,7 @@
       "picture": "greta.png",
       "lastUpdated": "2021-02-26T23:44:50.326Z",
       "votes": {
-        "positive": 118,
+        "positive": 119,
         "negative": 45
       }
     }
