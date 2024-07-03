@@ -26,6 +26,12 @@ export default {
       }
     },
   },
+  safelist: [
+    'bg-positive',
+    'bg-negative',
+    'ps-2',
+    'pe-2',
+  ],
   mode: 'jit',
   plugins: [],
 }
