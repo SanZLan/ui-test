@@ -15,12 +15,6 @@ Install dependencies with npm:
 $ npm install
 ```
 
-Concurrently requires a global install of the package, you can install the package:
-
-```sh
-$ npm install -g concurrently
-```
-
 Execute the `dev` script configured to concurrently run the json-server and the Vite dev server:
 
 ```sh
