@@ -8,12 +8,25 @@ export default {
     extend: {
       screens: {
         'lg': '1100px',
+      },
+      fontFamily: {
+        'lato': ['Lato', 'sans-serif'],
+      },
+      backgroundSize: {
+        '30%': '30%',
+        '50%': '50%',
+      },
+      backgroundPosition: {
+        'left': 'left',
+        'left-40': '0 40%'
+      },
+      colors: {
+        'positive': '#3CBBB4',
+        'negative': '#FBBD4A'
       }
     },
-    fontFamily: {
-      'lato': ['Lato', 'sans-serif'],
-    }
   },
+  mode: 'jit',
   plugins: [],
 }
 

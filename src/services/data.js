@@ -7,4 +7,9 @@ const getAll = async () => {
   return response.data
 }
 
-export default { getAll }
+const update = async (id, objectRequest) => {
+  const response = await axios.put(`${baseUrl}/${id}`, objectRequest)
+  return response.data
+}
+
+export default { getAll, update }

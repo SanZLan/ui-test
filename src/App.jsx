@@ -8,7 +8,7 @@ function App() {
   
   useEffect(() => {
     dispatch(initializeRulings())
-  }, [])
+  },)
 
   return (
     <div className='tailwind'>
