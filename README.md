@@ -1,8 +1,8 @@
 ### UI Test
 
-The solution provided to the test uses Vite to build the frontend and json-server, as an API token free and easy to get running-up solution to handle persistance of data. After installing dependencies, the command **'npm run dev'** will concurrently run the Vite build and the json server.
+The solution provided to the test uses Vite to build the frontend and json-server, as an API token free and easy to get running-up solution to handle persistance of data. After installing dependencies, the command **'npm run dev'** will concurrently run the Vite build and the json server. The project includes unit tests with Vitest.
 
-Start by cloning the repository of the poroject:
+Start by cloning the repository of the project:
 
 ```sh
 $ git clone git@github.com:SanZLan/ui-test.git
@@ -19,4 +19,10 @@ Execute the `dev` script configured to concurrently run the json-server and the 
 
 ```sh
 $ npm run dev
+```
+
+Execute the vitest `test` scripts with the command:
+
+```sh
+$ npm test
 ```
