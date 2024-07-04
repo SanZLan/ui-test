@@ -29,14 +29,14 @@ const Voting = ({ruling, layout}) => {
 
   return (
     <div className={`card__voting flex flex-col content-end gap-y-2 ${layout === 'List' ? 'md:!basis-1/4 md:!shrink-0 md:!h-full md:!justify-center' : ''}`}>
-      <p className='card__voting--text text-white text-end lg:text-sm'>
+      <p className='card__voting--text min-w-fit text-white text-end lg:text-sm'>
         {eyebrowText}
       </p>
       <div className='card__voting-buttons w-full flex flex-nowrap justify-end items-center gap-2 mb-4 lg:!mb-2'>
         <VotingButton type={'up'} isSelected={selectedVote === 'positive' ? true : false} voted={voted} setVote={() => setVote('positive')}/>
         <VotingButton type={'down'} isSelected={selectedVote === 'negative' ? true : false} voted={voted} setVote={() => setVote('negative')}/>
         <button onClick={() => (handleVote(ruling.id, selectedVote))}
-                className={`card__vote-button text-white !h-10 py-2 px-4 bg-black/60 border-2 border-white`} 
+                className={`card__vote-button text-white min-w-fit !h-10 py-2 px-4 bg-black/60 border-2 border-white`} 
                 style={ {backgroundColor: selectedVote ? 'rgba(0, 0, 0, 0.6)' : 'rgba(0, 0, 0, 0.1)'} } 
                 disabled={!selectedVote && !voted}>
                   {voted ? 'Vote Again' : 'Vote Now'}
