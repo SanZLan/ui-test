@@ -245,6 +245,7 @@ hr[role="separator"] {
     font-size: 1.25rem;
     font-weight: 300;
     -webkit-line-clamp: 6;
+    line-clamp: 6;
     text-overflow: ellipsis;
 }
 
